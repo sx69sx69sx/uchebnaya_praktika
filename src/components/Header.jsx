@@ -7,9 +7,9 @@ import light from "../img/LIGHT.svg";
 const Header = () => {
   return (
     <header className="w-full">
-      {/* Верхняя полоса */}
-      <div className="bg-[#FC7A1D] text-black flex items-center justify-between py-1 px-4">
-        <img src={dots} alt="Dots"  />
+
+      <div className="bg-[#FC7A1D] text-black flex items-center justify-between py-5 px-9">
+        <img src={dots} alt="Dots" />
         <span 
           className="font-bold text-[14px] leading-[20px] tracking-[0.04em] uppercase text-center font-inter">
           Summer Sale Up To 50% Off
@@ -17,11 +17,10 @@ const Header = () => {
         <img src={dots} alt="Dots" />
       </div>
 
-      {/* Основной логотип */}
-      <div className="bg-gray-100 flex items-center justify-center py-4">
-        <div className="flex items-center space-x-3">
+      <div className="bg-white-100 flex items-center justify-center py-4">
+        <div className="flex items-center space-x-12">
           <img src={first} alt="First" />
-          <img src={sun} alt="Sun"/>
+          <img src={sun} alt="Sun" className="pb-7"/> 
           <img src={light} alt="Light" />
         </div>
       </div>
