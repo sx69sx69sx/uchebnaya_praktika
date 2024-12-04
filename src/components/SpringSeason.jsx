@@ -1,5 +1,5 @@
 import React from "react";
-import springImage from "../img/bgfirst.png"; // замените на реальное изображение
+import springImage from "../img/bgfirst.png"; 
 import numeroLogo from "../img/Numero.svg";
 import businessInsiderLogo from "../img/BI.svg";
 import kinfolkLogo from "../img/KF.svg";

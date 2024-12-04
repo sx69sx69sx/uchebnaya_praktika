@@ -6,7 +6,7 @@ import arrowb from '../img/arrowblack.svg';
 const GenderSelection = () => {
   return (
     <div className="flex justify-center items-center bg-gray-100 p-40">
-      {/* Женщины */}
+
       <div className="group relative w-1/2 overflow-hidden rounded-l-xl">
         <img
           src={womensImage}
@@ -20,7 +20,6 @@ const GenderSelection = () => {
         </div>
       </div>
 
-      {/* Мужчины */}
       <div className="group relative w-1/2 overflow-hidden rounded-r-xl ">
         <img
           src={mensImage}
