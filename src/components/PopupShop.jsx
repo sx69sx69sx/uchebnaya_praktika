@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import shopImage from "../img/shop.png"; // Импорт изображения
+import shopImage from "../img/shop.png"; 
 
 const PopupShop = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -9,10 +9,10 @@ const PopupShop = () => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setIsVisible(true); // Устанавливаем видимость, когда секция в области просмотра
+          setIsVisible(true); 
         }
       },
-      { threshold: 0.2 } // Срабатывает, когда 20% секции видимо
+      { threshold: 0.2 } 
     );
 
     const currentRef = sectionRef.current;
@@ -33,7 +33,6 @@ const PopupShop = () => {
         ref={sectionRef}
         className="bg-white rounded-lg shadow-lg max-w-[1216px] w-full flex flex-col md:flex-row overflow-hidden"
       >
-        {/* Левая часть - изображение */}
         <div className="w-full md:w-1/2">
           <img
             src={shopImage}
@@ -42,7 +41,6 @@ const PopupShop = () => {
           />
         </div>
 
-        {/* Правая часть - текст */}
         <div className="w-full md:w-1/2 p-8">
           <h2
             className={`text-2xl font-bold mb-4 transition-all duration-700 ease-out ${
