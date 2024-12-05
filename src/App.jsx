@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Carousel from "./components/Carousel";
 import Features from "./components/Features";
+import PopupShop from "./components/PopupShop";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <PressSection/>
       <Carousel/>
       <Features/>
+      <PopupShop/>
     </div>
   );
 }
